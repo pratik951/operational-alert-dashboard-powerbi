@@ -5,6 +5,13 @@ A fully interactive Power BI dashboard built to streamline the triage and respon
 
 ---
 
+## 📸 Dashboard Preview
+
+![Dashboard Screenshot](Dashboard_Preview.png) <!-- Replace with your actual image or GitHub-hosted screenshot -->
+
+---
+---
+
 ## 📊 Overview
 
 This dashboard was developed to solve a common problem in security and IT operations: **too many low-priority alerts and not enough visibility into critical risks**.
@@ -71,11 +78,6 @@ This dashboard empowers security teams to:
 
 ---
 
-## 📸 Dashboard Preview
-
-![Dashboard Screenshot](Dashboard_Preview.png) <!-- Replace with your actual image or GitHub-hosted screenshot -->
-
----
 
 ## 🧪 Sample Data
 
