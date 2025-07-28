@@ -73,7 +73,7 @@ This dashboard empowers security teams to:
 
 ## 📸 Dashboard Preview
 
-![Dashboard Screenshot](assets/dashboard-preview.png) <!-- Replace with your actual image or GitHub-hosted screenshot -->
+![Dashboard Screenshot]() <!-- Replace with your actual image or GitHub-hosted screenshot -->
 
 ---
 
