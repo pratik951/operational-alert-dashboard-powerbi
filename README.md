@@ -1,89 +1,21 @@
-# Alert-Dashboard
-# 🚨 Operational Alert Prioritization Dashboard
 
-A fully interactive Power BI dashboard built to streamline the triage and response process for security alerts. This project simulates real-world alert data using Python and provides actionable insights through interactive visualizations.
+## 🚩 Problem → ✅ Solution → 📈 Impact
 
----
+**Problem.** Ops/Sec teams drown in low-value noise; critical alerts are missed or delayed.
 
-## 📸 Dashboard Preview
+**Solution.** A scoring engine ranks alerts by **Severity × Frequency** with tunable weights. Analysts get a **Top-10 Triage** view, KPI cards, and an **Endpoint Heatmap** to spot hotspots fast.
 
-![Dashboard Screenshot](Dashboard_Preview.png) <!-- Replace with your actual image or GitHub-hosted screenshot -->
+**Impact (simulated on synthetic data).**
+- ⏳ **Review time ↓ ~40%** using score-based triage
+- 🧭 Root-cause visibility: identify top modules/endpoints producing noise
+- 🧑‍💼 Better stakeholder decisions with clear KPIs & trends
 
----
----
-
-## 📊 Overview
-
-This dashboard was developed to solve a common problem in security and IT operations: **too many low-priority alerts and not enough visibility into critical risks**.
-
-Using Python and SQL to generate and process synthetic alert data, I built a Power BI dashboard that ranks alerts by severity and frequency, helping teams focus on what matters most.
+> *Note: Impact is measured on synthetic data that mimics real-world patterns.*
 
 ---
 
-## ⚙️ Tools & Technologies
+# Operational Alert Prioritization Dashboard (Power BI)
 
-| Tool         | Usage                                      |
-|--------------|---------------------------------------------|
-| **Python**   | Synthetic data generation (Faker, Pandas)   |
-| **SQL**      | Data cleansing & pre-processing             |
-| **Power BI** | Data modeling, DAX, visual storytelling     |
-| **DAX**      | Calculated KPIs (average score, max score) |
-| **GitHub**   | Version control and codebase repository     |
+A recruiter-friendly, end-to-end dashboard that prioritizes security/operations alerts using a custom scoring engine. Built with **Power BI + DAX**, backed by **Python/SQL** preprocessing, and packaged with synthetic data so anyone can test quickly. > **Download the report:** [`Security_Alert_Dashboard.pbix`](./Security_Alert_Dashboard.pbix)
 
----
-
-## 📁 Key Features
-
-- 📈 **Alert Scoring Engine**: Calculates alert score based on severity + frequency
-- 📊 **Interactive Dashboard**: Bar charts, line trends, heatmaps, and detailed logs
-- ⚠️ **Dynamic Triage View**: Prioritize top 10 alerts instantly
-- 🧱 **Endpoint Heatmap**: Shows alert concentration by module/endpoint
-- 📅 **Date Slicer**: Analyze trends across any time period
-- 💡 **KPI Cards**: Display total alerts, average score, max score, and endpoint count
-
----
-
-## 🎯 Business Problem
-
-Security analysts often face **overwhelming volumes of alerts**, most of which are:
-- Redundant
-- Low severity
-- Irrelevant to active threats
-
-This leads to:
-- ⚠️ Delayed responses to critical issues
-- ⏱ Wasted manual triage time
-- 📉 Inconsistent incident prioritization
-
----
-
-## ✅ Solution Provided
-
-This dashboard empowers security teams to:
-- Automate alert ranking via a custom scoring system
-- Filter and zoom into **top-risk endpoints** or **modules**
-- Identify high-frequency alert patterns
-- Allocate resources more effectively for faster response
-
----
-
-## 📈 Business Impact
-
-| Metric                      | Impact                                   |
-|-----------------------------|-------------------------------------------|
-| ⏳ **Alert Review Time**    | Reduced by **40%** using score-based triage |
-| 🔍 **Root Cause Visibility**| Pinpointed top 10 alert generators by module |
-| 🧠 **Decision Making**      | Improved stakeholder focus on critical risks |
-| 💬 **Analyst Feedback**     | Faster identification of false positives & recurring noise |
-
----
-
-
-## 🧪 Sample Data
-
-Data was generated using Python’s `Faker` and `random` libraries:
-- `sample_alerts.csv`: includes timestamp, module, severity, alert type, and score
-- `endpoints.csv`: metadata about affected endpoints
-
-All data is **synthetic and safe for public sharing**.
-
+![Dashboard Preview](./Dashboard_Preview.png)
